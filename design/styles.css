@@ -6,7 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.inter-inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
 .card-baccha{
     display: none;
 }
@@ -22,11 +27,13 @@
 .text-big{
     font-size: 50px;
     font-weight: bold;
+    font-family: "Noto Serif", serif;
 
 }
 .text-small{
 font-size: 22px;
 color: rgba(0, 0, 0, 0.5);
+ font-family: "Inter", sans-serif;
 }
 .head{
     display: flex;
@@ -88,6 +95,8 @@ font-size: 65px;
 }
 .carder-upore{
     justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
     
 }
 .card-text{
@@ -167,7 +176,7 @@ color: black;
     z-index: 1;
 }
 .lover-section .text-big
-{
+{ font-family: "Noto Serif", serif;
     margin-left: -5%;
     margin-top: 5%;
 }
@@ -185,6 +194,7 @@ color: black;
    
 }
 .lover-div .text-small{
+    font-family: "Inter",sans-serif;
     margin-bottom: 45px;
 }
 .deal-container{
@@ -360,4 +370,262 @@ margin-bottom: -5%;
     .news{
         display: none;
     }
+    .right-hero{
+        display: none;
+    }
+
+@media (max-width: 500px){
+
+
+.whole-code{
+    justify-items: center;
+    width: fit-content;
+    
+}
+.head{
+    justify-items: center;
+    
+}
+.width-margin{
+    width: 450px;
+    margin: auto 90px;
+}
+.head-left {
+
+    justify-content: center;
+    margin-left: 5%;
+}
+.head-right  .text-small {
+    display: none;
+   
+}
+.home{
+    display: none;
+}
+.head{
+    margin-left: 8% ;
+}
+.last-child{
+    display: flex;
+    
+    
+        max-width: fit-content;
+        flex-direction: row;
+        flex-wrap: nowrap;
+}
+.head-right {
+    margin-left:30%;
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.first-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.right-hero {
+  display: none;
+}
+.left-hero {
+    order: 2;
+    margin-right:30%;
+    margin-left:14%;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.rsz-hero{
+  order: 1;
+    justify-content: center;
+    justify-items: center;
+    width: fit-content;
+    margin-right:18%;
+    margin-bottom: 20%;
+}
+.left-hero .bold-font{
+    font-size: xx-large;
+}
+.text-big{
+    font-size: 28px;
+
+}
+.carder-upore{
+    margin-top: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.cards-father{
+ margin-top: 06%;
+ display: grid;
+    grid-template-columns: repeat(2,35%);
+    width: 412px;
+    margin-left: 7%;
+    row-gap:1% ;
+}
+.card{
+    width: 130px;
+   
+}
+.card .width-margin{
+    margin-bottom: 20px;
+     margin-right: 10px;
+}
+.card-img{
+    display: none;
+}
+.card-baccha{
+
+    display: block;
+}
+
+.lily{
+    width: 130px;
+   justify-items: center;
+   margin-left: 8%;
+}
+.text{
+    justify-items: center;
+    margin-left: 10%;
+}
+.btn-div{
+    width: 130px;
+    margin-left: 8%;
+    
+}
+.button{
+    width: fit-content;
+}
+
+.lover-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;}
+.lover{
+        margin-left: 13%;
+
+    }
+    .lover-div {
+       width: 270px;
+       margin-top: 2%;
+       margin-left: 3%;
+    
+    }
+    .mann{
+        display: block;
+        margin-left: 7%;
+    }
+    .lover-img{
+        display: none;
+    }
+    .trust-img{
+        display: none;
+    }
+    .lover-section .text-big{
+        margin-left: 2%;
+        font-size: 28px;
+    }
+
+    .twoo-zabo{
+  display: block;
+  
+  border-radius: 9px;
+  margin-left: .75%;
+   filter: brightness(0.5);
+    }
+    .text-overlay-z{
+        width: 70%;
+        margin-top: 130%;
+        position: absolute;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+        margin-left: 20%;
+        display: block;
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+.boro-img{
+    display: none;
+
+}
+.deal-container{
+    margin-left: 11%;
+}
+.text-overlay-ana{
+    width: 70%;
+    margin-left: 14%;
+}
+.text-overlay{
+    
+    width: 70%;
+     margin-left: 14%;
+}
+.text-overlay-zabo{
+    display: none;
+}
+.shop-now-2{
+     color: #ffffff;
+    text-decoration: underline;
+    
+    margin-left:18% ;
+}
+.bunch-img{
+    display: none;
+}
+.news{
+    display: block;
+    margin-top: 20%;
+    margin-left: -4%;
+}
+.search-bar{
+    margin-left: 12%;
+    position: absolute;
+}
+.search-bar .text-big{
+    padding-top: 60%;
+}
+.search-box{
+    margin-top: 5%;
+    width: 320px;
+display: flex;
+
+}
+.radius{
+    margin-bottom: 2%;
+    border: 25px  rgb(255, 255, 255);
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    margin-left: -6%;
+}
+.footer-logo{
+    margin-left: 3%;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: -12%;
+}
+.footer-column{
+    text-align: left;
+}
+.footer-social{
+    margin-left: 11%;
+    margin-top: 1%;
+    margin-bottom: 05%;
+   display: flex;
+   flex-direction: row;
+   gap: none;
+}
+       
+}
+
 
