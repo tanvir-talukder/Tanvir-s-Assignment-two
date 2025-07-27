@@ -55,3 +55,59 @@ color: rgba(0, 0, 0, 0.5);
 .text-colour{
     color: #E95A08;
 }
+.first-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   margin-top: 200px;
+  
+   height: 461px;
+  
+ 
+   justify-content: center;
+   
+   justify-items: center;
+   
+}
+.left-hero{
+    
+  
+   
+}
+.bold-font{
+font-size: 65px; 
+  font-weight: bold;
+}
+
+.right-hero{
+    
+     height: 350px;
+    width: 570px;
+    padding left:570px ;
+    padding-top: 106px;
+}
+.carder-upore{
+    justify-items: center;
+    
+}
+.card-text{
+    text-align: center;
+    margin: 8px 126px;
+}
+.cards-father{
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    gap: 18px;
+  
+    
+}
+.card{
+  border: none;
+   width: 270px;
+    height: 485px;
+    
+}
+.card-img{
+    height: 323px;
+    width: 270px;
+}
