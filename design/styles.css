@@ -1,0 +1,57 @@
+.noto-serif-noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.card-baccha{
+    display: none;
+}
+.whole-code{
+    justify-items: center;
+    
+}
+
+.width-margin{
+    margin:auto 150px;
+    width: 1140px;
+}
+.text-big{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.text-small{
+font-size: 22px;
+color: rgba(0, 0, 0, 0.5);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 71px;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+}
+.head-left{
+    width: 135px;
+    height: 82px;
+
+}
+.head-right{
+    display: grid;
+    grid-template-columns: repeat(4,31%); 
+    width: 420px;
+    font-size: 22px;
+    list-style: none;
+    height: 60px;
+    margin-right: 90px;
+    margin-top:40px ;
+}
+.text-colour{
+    color: #E95A08;
+}
