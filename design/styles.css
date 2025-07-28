@@ -504,9 +504,11 @@ margin-bottom: -5%;
 .lover-section{
     display: flex;
     flex-direction: column;
-    margin-top: 220px;}
+    margin-top: 220px;
+margin-bottom: 20%;}
 .lover{
         margin-left: 13%;
+        margin-bottom: 20%;
 
     }
     .lover-div {
@@ -516,6 +518,7 @@ margin-bottom: -5%;
     
     }
     .mann{
+        margin-top: -50%;
         display: block;
         margin-left: 7%;
     }
@@ -526,6 +529,7 @@ margin-bottom: -5%;
         display: none;
     }
     .lover-section .text-big{
+        
         margin-left: 2%;
         font-size: 28px;
     }
@@ -539,15 +543,13 @@ margin-bottom: -5%;
     }
     .text-overlay-z{
         width: 70%;
-        margin-top: 130%;
         position: absolute;
         text-decoration: none;
-        color: rgb(255, 255, 255);
-        
-        margin-left: 20%;
+        color: rgb(255, 255, 255); 
         display: block;
         font-weight: bold;
         font-size: 20px;
+        margin: 130% -20% 1px 20%;
     
     }
 .boro-img{
