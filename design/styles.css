@@ -620,7 +620,7 @@ display: flex;
     grid-template-columns: repeat(1,1fr);
     justify-items: left;
     text-align:left;
-  margin-left: 30%;
+  margin-left: 80%;
 }
 .footer-logo{
     margin-left: 3%;
