@@ -476,7 +476,7 @@ margin-bottom: -5%;
      margin-right: 10px;
 }
 .card-img{
-    display: none;
+    display: block;
 }
 .card-baccha{
 
